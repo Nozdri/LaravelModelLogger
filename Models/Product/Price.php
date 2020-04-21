@@ -12,6 +12,6 @@ class Price extends Model
 	//some code...
 
 	protected $dispatchesEvents = [
-		'updating' => PriceUpdated::class,
+		'updated' => PriceUpdated::class,
 	];
 }

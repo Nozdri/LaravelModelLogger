@@ -12,6 +12,6 @@ class PropertyValue extends Model
 	//some code...
 
 	protected $dispatchesEvents = [
-		'updating' => PropertyValueUpdated::class,
+		'updated' => PropertyValueUpdated::class,
 	];
 }

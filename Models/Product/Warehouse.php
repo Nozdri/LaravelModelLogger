@@ -12,6 +12,6 @@ class Warehouse extends Model
 	//some code...
 
 	protected $dispatchesEvents = [
-		'updating' => WarehouseUpdated::class,
+		'updated' => WarehouseUpdated::class,
 	];
 }
