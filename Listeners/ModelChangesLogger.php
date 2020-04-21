@@ -3,7 +3,7 @@
 namespace Listeners;
 
 
-use Events\Content\Event;
+use Events\Event;
 use Illuminate\Database\Eloquent\Model;
 use Log;
 
